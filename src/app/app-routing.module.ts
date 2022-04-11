@@ -1,4 +1,4 @@
-import { NgModule } from '@angular/core';
+import { Component, NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { AbigailComponent } from './pages/abigail/abigail.component';
 import { FamiliaComponent } from './pages/familia/familia.component';
@@ -12,7 +12,7 @@ const routes: Routes = [
   {path:'familia',component:FamiliaComponent},
   {path:'logros',component:LogrosComponent},
   {path:'abigail',component:AbigailComponent},
-  {path:'trabajo',component:TrabajosComponent}
+  {path:'trabajos',component:TrabajosComponent}
 ];
 
 @NgModule({
